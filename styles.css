@@ -1,0 +1,476 @@
+body {
+  margin: 0;
+  background-color: #100f14;
+}
+
+.all-itens {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 40px;
+  color: #837e9f;
+}
+
+.first-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 348px;
+  height: 292px;
+  left: 40px;
+  top: 33px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+.me-image {
+  border-radius: 50%;
+  box-sizing: border-box;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #00ff00;
+}
+
+.subtitle-first-item {
+  position: relative;
+  top: -10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+.my-redes {
+  display: flex;
+  margin-top: 20px;
+  width: 348px;
+  height: 348px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+.content-rede {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.map-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.job-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.github-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.insta-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.gmail-icon {
+  width: 25px;
+  height: 25px;
+}
+.linkedin-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.brasil {
+  position: relative;
+  bottom: 5px;
+  margin-left: 20px;
+  display: inline-block;
+  align-items: center;
+  justify-content: start;
+}
+
+.student {
+  position: relative;
+  bottom: 5px;
+  margin-left: 20px;
+  display: inline-block;
+  align-items: center;
+  justify-content: start;
+}
+
+.profile-github {
+  display: flex;
+  position: relative;
+  bottom: 5px;
+  margin-left: 20px;
+  display: inline-block;
+  align-items: center;
+  justify-content: start;
+  text-decoration: none;
+}
+
+.instagram {
+  margin-top: 25px;
+  position: relative;
+  bottom: 5px;
+  margin-left: 20px;
+  display: inline-block;
+  text-decoration: none;
+  align-items: center;
+  justify-content: start;
+}
+
+.gmail {
+  position: relative;
+  bottom: 6px;
+  margin-top: 30px;
+  margin-left: 20px;
+  display: inline-block;
+  align-items: center;
+  justify-content: start;
+  margin-top: 30px;
+}
+
+.linkedin {
+  position: relative;
+  bottom: 5px;
+  margin-top: 30px;
+  margin-left: 20px;
+  display: inline-block;
+  text-decoration: none;
+  align-items: center;
+  justify-content: start;
+  margin-top: 30px;
+}
+
+.technologies {
+  margin-top: 20px;
+  width: 348px;
+  height: 208px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.experiences {
+  width: 348px;
+  height: 349px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.education {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 348px;
+  height: 352px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.content-technologies {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+
+  bottom: -5px;
+}
+.technologies-title {
+  margin-left: 18px;
+  font-family: "Rubik", sans-serif;
+}
+
+.tech-itens {
+  margin-left: 30px;
+  justify-content: center;
+  display: grid;
+  gap: 15px;
+  grid-template-areas:
+    "1 2 3"
+    "1 2 3"
+    "1 2 3";
+
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.item-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 86px;
+  height: 24px;
+  background: #89acee;
+  border-radius: 30px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.item-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 86px;
+  height: 24px;
+  background: #89acee;
+  border-radius: 30px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.item-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 86px;
+  height: 24px;
+  background: #89acee;
+  border-radius: 30px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.item-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 86px;
+  height: 24px;
+  background: #89acee;
+  border-radius: 30px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.item-five {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 86px;
+  height: 24px;
+  background: #89acee;
+  border-radius: 30px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.item-six {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 86px;
+  height: 24px;
+  background: #89acee;
+  border-radius: 30px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.item-seven {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 86px;
+  height: 24px;
+  background: #89acee;
+  border-radius: 30px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.experiences {
+  position: relative;
+  margin-top: 20px;
+}
+
+.experiences-title {
+  display: flex;
+  width: 100%;
+  position: relative;
+  bottom: -35px;
+  margin-left: 18px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.experiences-itens {
+  bottom: 7px;
+  margin-left: 10px;
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  float: left;
+  height: 75%;
+  width: 75%;
+  font-family: "Rubik", sans-serif;
+}
+
+.graph-one {
+  position: relative;
+  bottom: 20px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.graph-two {
+  position: relative;
+  bottom: 20px;
+  font-weight: bolder;
+
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.graph-three {
+  position: relative;
+  bottom: 20px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.education-title {
+  position: relative;
+  margin-left: 20px;
+  top: 35px;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+}
+
+.aside-itens {
+  display: grid;
+  line-height: 80px;
+  position: relative;
+  bottom: -50;
+  margin-left: 10px;
+  margin-top: 50px;
+  width: 200px;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+}
+
+.projects-title {
+  width: 20%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 22px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+}
+
+.view-projects {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  color: #837e9f;
+}
+.header-projects {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 86px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.projects-section {
+  display: flex;
+  width: 100%;
+  margin-top: 32px;
+  gap: 30px;
+}
+
+.projects-box {
+  width: 50%;
+  height: 186px;
+  box-sizing: border-box;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.main-content {
+  width: 100%;
+  padding: 0 60px;
+}
