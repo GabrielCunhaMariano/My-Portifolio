@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  background-color: #100f14;
+  background-color: #151515;
 }
 
 .all-itens {
   display: flex;
   margin-top: 30px;
   margin-left: 40px;
-  color: #837e9f;
+  color: rgba(255, 255, 255, 0.621);
 }
 
 .first-item {
@@ -19,7 +19,7 @@ body {
   height: 292px;
   left: 40px;
   top: 33px;
-  background: #302f3d;
+  background: #232323;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   font-family: "Rubik", sans-serif;
@@ -30,7 +30,7 @@ body {
   box-sizing: border-box;
   width: 128px;
   height: 128px;
-  border: 2px solid #00ff00;
+  border: 2px solid #077ac2;
 }
 
 .subtitle-first-item {
@@ -48,7 +48,7 @@ body {
   margin-top: 20px;
   width: 348px;
   height: 348px;
-  background: #302f3d;
+  background: #232323;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   font-family: "Rubik", sans-serif;
@@ -83,6 +83,7 @@ body {
   width: 25px;
   height: 25px;
 }
+
 .linkedin-icon {
   width: 25px;
   height: 25px;
@@ -107,6 +108,7 @@ body {
 }
 
 .profile-github {
+  color: rgba(255, 255, 255, 0.621);
   display: flex;
   position: relative;
   bottom: 5px;
@@ -118,6 +120,7 @@ body {
 }
 
 .instagram {
+  color: rgba(255, 255, 255, 0.621);
   margin-top: 25px;
   position: relative;
   bottom: 5px;
@@ -140,6 +143,7 @@ body {
 }
 
 .linkedin {
+  color: rgba(255, 255, 255, 0.621);
   position: relative;
   bottom: 5px;
   margin-top: 30px;
@@ -155,7 +159,7 @@ body {
   margin-top: 20px;
   width: 348px;
   height: 208px;
-  background: #302f3d;
+  background: #232323;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
@@ -163,7 +167,7 @@ body {
 .experiences {
   width: 348px;
   height: 349px;
-  background: #302f3d;
+  background: #232323;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
@@ -173,7 +177,7 @@ body {
   margin-bottom: 20px;
   width: 348px;
   height: 352px;
-  background: #302f3d;
+  background: #232323;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
@@ -185,6 +189,7 @@ body {
 
   bottom: -5px;
 }
+
 .technologies-title {
   margin-left: 18px;
   font-family: "Rubik", sans-serif;
@@ -377,6 +382,7 @@ body {
   font-size: 12px;
   line-height: 15px;
 }
+
 .graph-two {
   position: relative;
   bottom: 20px;
@@ -434,14 +440,15 @@ body {
 }
 
 .view-projects {
+  color: rgba(255, 255, 255, 0.621);
   font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   text-decoration: none;
-  color: #837e9f;
 }
+
 .header-projects {
   justify-content: space-between;
   align-items: center;
@@ -450,10 +457,11 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   box-sizing: border-box;
-  background: #302f3d;
+  background: #232323;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
+
 .projects-section {
   display: flex;
   width: 100%;
@@ -462,10 +470,13 @@ body {
 }
 
 .projects-box {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
   width: 50%;
   height: 186px;
   box-sizing: border-box;
-  background: #302f3d;
+  background: #232323;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
@@ -473,4 +484,61 @@ body {
 .main-content {
   width: 100%;
   padding: 0 60px;
+  font-style: normal;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+}
+
+.sphere-one {
+  right: 75px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #e34c26;
+  border: 2px solid #837e9f;
+  border-radius: 20px;
+}
+
+.sphere-two {
+  box-sizing: border-box;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #563d7c;
+  border: 2px solid #837e9f;
+  border-radius: 20px;
+}
+
+.project-title {
+  margin-left: 15px;
+  position: relative;
+  display: inline-block;
+  bottom: 5px;
+}
+
+.html-description {
+  right: -20px;
+  position: relative;
+  bottom: 19px;
+}
+
+.css-description {
+  position: relative;
+  left: 20px;
+  bottom: 19px;
+}
+
+.project-description {
+  top: -20px;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.atributes-box {
+  margin-right: 70px;
+  display: flex;
+  position: relative;
+  justify-content: right;
 }

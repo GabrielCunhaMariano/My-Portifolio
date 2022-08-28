@@ -8,9 +8,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Portifólio</title>
   </head>
   <body>
+    <script>
+      function executaAcao(){
+      window.location = "https://github.com/GabrielCunhaMariano/card-nft";
+      }
+      function executaAcaoTwo(){
+      window.location = "https://github.com/GabrielCunhaMariano/My-Portifolio";
+      }
+      function executaAcaoThree(){
+      window.location = "https://github.com/GabrielCunhaMariano?tab=repositories";
+      }
+      </script>
     <div class="all-itens">
       <aside>
         <section class="first-item">
@@ -87,7 +98,7 @@
       </div class = "experiences-division">
       
         <section class="experiences">
-          <h3 class="experiences-title">Experiências</h3>
+          <h3 class="experiences-title">Estudos</h3>
           <ul class="experiences-itens">
             <li>Descomplica</li>
             <p  class="graph-one">2022 - Atualmente estudando para o enem</p>
@@ -115,15 +126,41 @@
         </section>
 
       </aside>
+      
       <main class="main-content">
-      <header class="header-projects">
+      <header id="clicavel" onclick="executaAcaoThree ()"class="header-projects">
           <h3 class="projects-title">My Projects</h3>
           <a href="https://github.com/GabrielCunhaMariano" class="view-projects">Veja todos</a>
       </header>
 
       <section class="projects-section">
-        <div class="projects-box"></div>
-        <div class="projects-box"></div>
+        <div id="clicavel" onclick="executaAcao()"class="projects-box">
+          <div class="group-two">
+          <img src="./icon/folder.svg" alt="">
+          <p class="project-title">card-nft</p>
+          </div>
+          <p class="project-description">Um card NFT que fiz para testar meu conhecimento.</p>
+          <div class="atributes-box">
+           <div class="spheres-division">
+             <span class="sphere-one"><p class="html-description">Html</p></span>
+            </div>
+           <span class="sphere-two" ><p class= "css-description">CSS</p></span>
+          </div>
+        </div>
+        <div id="clicavel" onclick="executaAcaoTwo()"class="projects-box">
+          <div class="group-two">
+          <img src="./icon/folder.svg" alt="">
+          <p class="project-title">My-Portifolio</p>
+          </div>
+          <p class="project-description">Meu primeiro Portifólio.</p>
+          <div class="atributes-box">
+           <div class="spheres-division">
+             <span class="sphere-one"><p class="html-description">Html</p></span>
+            </div>
+           <span class="sphere-two" ><p class= "css-description">CSS</p></span>
+          </div>
+        </div>
+        </div>
       </section>
       </main>
     </div>
