@@ -542,3 +542,14 @@ body {
   position: relative;
   justify-content: right;
 }
+
+footer {
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.621);
+  margin-bottom: 20px;
+}
