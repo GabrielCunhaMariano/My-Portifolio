@@ -344,7 +344,7 @@ body {
 
 .experiences {
   position: relative;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .experiences-title {
@@ -544,14 +544,13 @@ body {
 }
 
 footer {
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  right: 200px;
+  top: 1350px;
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   color: rgba(255, 255, 255, 0.621);
-  margin-bottom: 20px;
-}
-@media (max-width: 600px) {
+  margin-bottom: 1375px;
 }
