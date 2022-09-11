@@ -14,162 +14,43 @@
     <title>My Portifólio</title>
   </head>
   <body>
-    <script>
-      function executaAcao() {
-        window.location = "https://github.com/GabrielCunhaMariano/card-nft";
-      }
-      function executaAcaoTwo() {
-        window.location =
-          "https://github.com/GabrielCunhaMariano/My-Portifolio";
-      }
-      function executaAcaoThree() {
-        window.location =
-          "https://github.com/GabrielCunhaMariano?tab=repositories";
-      }
-    </script>
-    <div class="all-itens">
-      <aside>
-        <section class="first-item">
-          <img
-            class="me-image"
-            src="./icon/IMG_20220611_183429_990.jpg"
-            alt="A people"
-          />
-          <h1>Gabriel Mariano</h1>
-          <p class="subtitle-first-item">Full Stack Developer</p>
-        </section>
-        <section class="my-redes">
-          <div class="content-rede">
-            <div>
-              <img class="map-icon" src="./icon/map-pin.svg" alt="Map icon" />
-              <p class="brasil">Brasil</p>
-            </div>
-            <div>
-              <img class="job-icon" src="./icon/briefcase.svg" alt="Job icon" />
-              <p class="student">Estudante</p>
-            </div>
-            <div>
-              <img
-                class="github-icon"
-                src="./icon/github.svg"
-                alt="Github Icon"
-              />
-              <a
-                class="profile-github"
-                href="https://github.com/GabrielCunhaMariano"
-                >GabrielCunhaMariano</a
-              >
-            </div>
-            <div>
-              <img class="insta-icon" src="./icon/instagram.svg" alt="" />
-              <a
-                class="instagram"
-                href="https://www.instagram.com/gabrielmariano._/"
-                >gabrielmariano._</a
-              >
-            </div>
-            <div>
-              <img class="linkedin-icon" src="./icon/linkedin.svg" alt="" />
-              <a
-                class="linkedin"
-                href="https://www.linkedin.com/in/gabriel-cunha-mariano-229646246/"
-                >Gabriel Cunha Mariano
-              </a>
-            </div>
-            <div>
-              <img class="gmail-icon" src="./icon/mail.svg" alt="" />
-              <p class="gmail">gabrielmarianocontato@gmail.com</p>
-            </div>
-          </div>
-        </section>
-        <div class="technologies">
-          <section class="content-technologies">
-            <h3 class="technologies-title">Tecnologias</h3>
-            <section class="tech-itens">
-              <a class="item-one" href="#">JAVASCRIPT</a>
-              <a class="item-two" href="#">PYTHON</a>
-              <a class="item-three" href="#">DOM</a>
-              <a class="item-four" href="#">GIT</a>
-              <a class="item-five" href="#">GITHUB</a>
-              <a class="item-six" href="#">HTML</a>
-              <a class="item-seven" href="#">CSS</a>
-            </section>
-            <div class="experiences-division"></div>
-            <section class="experiences">
-              <h3 class="experiences-title">Estudos</h3>
-              <ul class="experiences-itens">
-                <li>Descomplica</li>
-                <p class="graph-one">2022 - Atualmente estudando para o enem</p>
-                <li>Rockeatseat</li>
-                <p class="graph-two">2022 - Atualmente estudando full-stack</p>
-                <li>Ensino médio</li>
-                <p class="graph-three">
-                  2022 - Atualmente um estudante do ensino médio
-                </p>
-              </ul>
-            </section>
-          </section>
-          <section class="education">
-            <section class="education-content">
-              <h3 class="education-title">Educação</h3>
-              <ul class="aside-itens">
-                <style>
-                  @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&family=Rubik:wght@300&display=swap");
-                </style>
-                <li>RockeatSeat</li>
-                <li>RockeatSeat Ignite</li>
-                <li>Bruno Mariano - Mentor</li>
-              </ul>
-            </section>
-          </section>
+    <aside>
+      <article id="aside-header">
+        <img src="./icon/IMG_20220611_183429_990.jpg" alt="Gabriel photo" />
+        <h1>Gabriel Mariano</h1>
+        <p>Full Stack Developer</p>
+      </article>
+      <article id="contact-forms">
+        <div>
+          <img src="./icon/map-pin.svg" alt="map icon" />
+          <p>Brasil</p>
         </div>
-      </aside>
-      <main class="main-content">
-        <header
-          id="clicavel"
-          onclick="executaAcaoThree ()"
-          class="header-projects"
-        >
-          <h3 class="projects-title">My Projects</h3>
-          <a href="https://github.com/GabrielCunhaMariano" class="view-projects"
-            >Veja todos</a
+        <div>
+          <img src="./icon/briefcase.svg" alt="" />
+          <p>Estudante</p>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <a href="https://github.com/GabrielCunhaMariano"
+            >GabrielCunhaMariano</a
           >
-        </header>
-        <section class="projects-section">
-          <div id="clicavel" onclick="executaAcao()" class="projects-box">
-            <div class="group-two">
-              <img src="./icon/folder.svg" alt="" />
-              <p class="project-title">card-nft</p>
-            </div>
-            <p class="project-description">
-              Um card NFT que fiz para testar meu conhecimento.
-            </p>
-            <div class="atributes-box">
-              <div class="spheres-division">
-                <span class="sphere-one"
-                  ><p class="html-description">Html</p></span
-                >
-              </div>
-              <span class="sphere-two"><p class="css-description">CSS</p></span>
-            </div>
-          </div>
-          <div id="clicavel" onclick="executaAcaoTwo()" class="projects-box">
-            <div class="group-two">
-              <img src="./icon/folder.svg" alt="" />
-              <p class="project-title">My-Portifolio</p>
-            </div>
-            <p class="project-description">Meu primeiro Portifólio.</p>
-            <div class="atributes-box">
-              <div class="spheres-division"></div>
-              <span class="sphere-one"
-                ><p class="html-description">Html</p></span
-              >
-              <span class="sphere-two"><p class="css-description">CSS</p></span>
-            </div>
-          </div>
-        </section>
-        <footer><center>Designed & Built by Gabriel Mariano</center></footer>
-      </main>
-    </div>
+        </div>
+        <div>
+          <img src="./icon/instagram.svg" alt="" />
+          <a href="https://www.instagram.com/gabrielmariano._/"
+            >gabrielmariano._</a
+          >
+        </div>
+        <div>
+          <img src="./icon/linkedin.svg" alt="" />
+          <a href="https://www.linkedin.com/in/gabriel-cunha-mariano-229646246/"
+            >Gabriel Cunha Mariano</a
+          >
+        </div>
+      </article>
+      <article id="technologies"></article>
+      <article id="experiences"></article>
+      <article id="education"></article>
+    </aside>
   </body>
 </html>
